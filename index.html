@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="diseñador, desarrollador, publicista, fullstack">
+  <meta name="description"
+    content="creativo diseñador gráfico con habilidades en el desarrollo web fullstack, profesional en mercadeo y publicidad">
+  <meta name="author" content="JAcujar">
+
+  <!-- FUENTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&family=Staatliches&display=swap"
+    rel="stylesheet">
+
+  <title>JA Cujar</title>
+
+  <link rel="shortcut icon" href="assets/img/firma Alejandro Cujar.png" type="image/x-icon">
+
+  <!-- ICONOS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- JS -->
+  <script type="module" src="assets/js/main.js"></script>
+
+  <!-- Email JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "Dte2gNB9yIW9y86I_",
+      });
+    })();
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div class="loader flex--container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 268" class="loader__logo">
+      <path fill="currentColor"
+        d="M108.473 2.81055C114.675 -0.783262 122.325 -0.783265 128.527 2.81055L226.74 59.7212C232.912 63.298 236.712 69.8919 236.712 77.0259V190.974C236.712 198.108 232.912 204.702 226.74 208.279L128.527 265.189C122.325 268.783 114.675 268.783 108.473 265.189L10.2601 208.279C4.08755 204.702 0.287529 198.108 0.287529 190.974V77.0259C0.287529 69.8919 4.08754 63.298 10.2601 59.7212L108.473 2.81055Z">
+      </path>
+    </svg>
+  </div>
+
+  <header class="header">
+    <nav class="navbar grid--container flex--container">
+      <a class="navbar__logo flex--container" href="#home"><img class="bx bxs-registered"
+          src="assets/img/firma Alejandro Cujar.png" alt="logotypeCujarSB"></a>
+      <div id="nav" class="navbar__menu">
+        <a href="#close"><i class='bx bx-x btn__close navbar__icon flex--container'></i></a>
+        <ul class="navbar__list flex--container">
+          <li class="navbar__item">
+            <a class="navbar__link active" href="#home">Inicio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about">Acerca de mí</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#skills">Habilidades</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#projects">Portafolio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar__toggles flex--container">
+        <div class="navbar__toggle--darkmode flex--container">
+          <input type="checkbox" name="color-scheme" id="darkmode-toggle" class="navbar__toggle--darkmode-input" />
+          <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+            <i class="bx bx-sun navbar__toggle--darkmode-sun"></i>
+            <i class="bx bx-moon navbar__toggle--darkmode-moon"></i>
+          </label>
+        </div>
+        <div class="navbar__toggle--language flex--container">
+          <input type="checkbox" name="language-toggle" id="language-toggle" class="navbar__toggle--language-input" />
+          <label for="language-toggle" class="navbar__toggle--language-label"></label>
+        </div>
+      </div>
+
+      <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <i class="bx bxl-html5 home__layer home__layer--1" data-speed="-5"></i>
+      <i class="bx bxl-javascript home__layer home__layer--2" data-speed="5"></i>
+      <i class="bx bxl-css3 home__layer home__layer--3" data-speed="2"></i>
+      <i class="bx bxl-nodejs home__layer home__layer--4" data-speed="6"></i>
+      <i class="bx bxl-react home__layer home__layer--5" data-speed="8"></i>
+      <i class="bx bxl-tailwind-css home__layer home__layer--6" data-speed="-2"></i>
+      <i class="bx bxl-redux home__layer home__layer--7" data-speed="4"></i>
+      <i class="bx bxl-typescript home__layer home__layer--8" data-speed="-2"></i>
+      <i class="bx bxl-git home__layer home__layer--9" data-speed="6"></i>
+      <i class="bx bxl-graphql home__layer home__layer--10" data-speed="-7"></i>
+      <i class="bx bx-code-alt home__layer home__layer--11" data-speed="-5"></i>
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <img src="assets/img/profile.png" alt="JAcujarphotoprofile" title="José Alejandro Cujar Barrero">
+        </div>
+
+
+        <ul class="home__social flex--container">
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://www.linkedin.com/in/alejandrocujardesigner/" target="_blank"><i
+                class="bx bxl-linkedin"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://wa.link/zaph78" target="_blank"><i
+                class="bx bxl-whatsapp"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://github.com/JAcujar" target="_blank"><i
+                class="bx bxl-github"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="mailto:alejocujar@hotmail.com" target="_blank"><i
+                class="bx bx-envelope"></i></a>
+          </li>
+        </ul>
+
+        <div class="home__info">
+          <h1 class="home__title">Hola, soy Alejo</h1>
+          <p class="home__description">
+            Soy un creativo diseñador gráfico con habilidades como desarrollador fullstack. Soy profesional en mercadeo
+            y
+            publicidad y apasionado por el continuo aprendizaje
+          </p>
+        </div>
+
+        <div class="home__buttons">
+          <a class="btn btn--primary" href="./resources/Alejandro Cujar-CV-17-09-2024_compressed.pdf"
+            title="Descargar CV" download="JAcujar_CV">
+            Descargar CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <h2 class="section__title">Acerca de Mí</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          Soy José Alejandro Cujar Barrero, un colombiano de 25 años con habilidades en diseño y publicidad, utilizando
+          principalmente las herramientas gráficas de la Suite de Adobe. Recientemente, he complementado mis habilidades
+          de diseño con el desarrollo FULL STACK, lo que me ha permitido mantenerme a la vanguardia tecnológica y
+          cumplir con las necesidades de mis clientes. Valoro el aprendizaje continuo como clave para el éxito.
+        </p>
+
+        <div class="about__cards flex--container">
+
+          <!--Card 1 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/trekking.jpg" alt="Nevado Santa Ana DIC2019"
+              title="Nevado Santa Ana DIC2019" />
+          </div>
+          <!--Card 2 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/grado.jpg" alt="Grado universitario OCT2023"
+              title="Grado universitario OCT2023" />
+          </div>
+          <!--Card 3 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/bgta.jpg" alt="Universidad BGTA" title="Universidad BGTA" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <h2 class="section__title">Habilidades</h2>
+
+      <div class="skills__container grid--container">
+        <p class="skills__description flex--container">
+          Soy un profesional creativo con experiencia en desarrollo web full stack, gestión de redes sociales, diseño
+          gráfico, SEO, SEM y análisis de métricas. Me destaco por mi adaptabilidad, liderazgo, resolución de problemas
+          y orientación al cliente, combinando creatividad e innovación para desarrollar estrategias efectivas y
+          persuasivas.
+        </p>
+
+        <div class="skills__wrapper flex--container">
+          <div class="skills__cards flex--container">
+            <!--Card 1 -->
+            <details class="skills__cards-container" name="moreInfo" open>
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-html5 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">HTML</h3>
+
+                <p class="skills__card-description">
+                  Domino la estructura semántica de HTML, la creación de contenido accesible y organizado, la
+                  optimización de formularios, imágenes y multimedia, así como el uso de estándares HTML5 para
+                  desarrollar sitios modernos y responsivos. Además, integro SEO, aseguro compatibilidad entre
+                  navegadores y colaboro con CSS y JavaScript para páginas dinámicas y funcionales.
+                </p>
+              </div>
+            </details>
+            <!--Card 2 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-css3 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">CSS3</h3>
+
+                <p class="skills__card-description">
+                  Domino el uso de CSS para crear diseños atractivos y responsivos, aplicando técnicas avanzadas como
+                  flexbox, grid, animaciones y transiciones. Optimizo la presentación visual y la experiencia del
+                  usuario, asegurando la compatibilidad entre navegadores y el buen rendimiento en diferentes
+                  dispositivos.
+                </p>
+              </div>
+            </details>
+            <!--Card 3 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-javascript flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">Javascript</h3>
+
+                <p class="skills__card-description">
+                  Tengo experiencia en JavaScript para desarrollar aplicaciones interactivas y dinámicas. Domino el uso
+                  de funciones, objetos, arrays y manipulaciones del DOM para crear experiencias de usuario fluidas.
+                  También manejo la asincronía con promesas y async/await, así como la integración de APIs para mejorar
+                  la funcionalidad. Utilizo ES6+ para optimizar el código y trabajar con módulos, y aplico buenas
+                  prácticas para garantizar un código limpio y eficiente.
+                </p>
+              </div>
+            </details>
+            <!--Card 4 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-react flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">React</h3>
+
+                <p class="skills__card-description">
+                  Tengo experiencia en React, creando interfaces interactivas con componentes funcionales y hooks.
+                  Utilizo Redux y Context API para manejar el estado, React Router para la gestión de rutas y optimizo
+                  el rendimiento con técnicas como la renderización condicional y el memoization.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="skills__tags flex--container">
+          <h3 class="skills__tags-title">Habilidades Blandas</h3>
+          <div class="skills__tags-container flex--container">
+            <span class="skills__tag">Responsable</span>
+            <span class="skills__tag">Empático</span>
+            <span class="skills__tag">Analítico</span>
+            <span class="skills__tag">Trabajo en equipo</span>
+            <span class="skills__tag">Creativo</span>
+            <span class="skills__tag">Innovador</span>
+            <span class="skills__tag">Puntual</span>
+            <span class="skills__tag">Proactivo</span>
+            <span class="skills__tag">Autodidacta</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyectos</h2>
+
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project1.jpg" alt="project 1" title="Ecommerce Vanilla" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 1</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project2.png" alt="project 1" title="Consumiendo API Pokemon con React" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 2</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project3.jpg" alt="project 1" title="CRUD con React" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 3</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project4.png" alt="project 1" title="Aplicación del tiempo con React" />
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 4</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  VER DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  VER CÓDIGO
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contacto</h2>
+
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Información de contacto</h3>
+          <p class="contact__info-description">
+            Puedes comunicarte conmigo por medio de los siguientes canales.
+          </p>
+
+          <address class="contact__info-data">
+            <div class="contact__info-item">
+              <i class="bx bxl-whatsapp"></i>
+
+              <span class="contact__info-number">
+                <a href="https://wa.link/zaph78" target="_blank" rel="noreferrer nofollow">Mensaje a WhatsApp</a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-phone"></i>
+
+              <span class="contact__info-number">
+                <a href="tel:57-315-494-3109" target="_blank" rel="noreferrer nofollow">
+                  +57 315 494 3109
+                </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bxs-envelope"></i>
+
+              <span class="contact__info-mail">
+                <a id="mail" href="mailto:alejocujar@hotmail.com" target="_blank" rel="noreferrer nofollow">
+                  alejocujar@hotmail.com
+                </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class="bx bx-map"></i>
+
+              <span class="contact__info-map"> Neiva, Huila - Colombia. </span>
+            </div>
+          </address>
+        </div>
+        <div class="contact__form">
+          <h3 class="contact__form-title">Enviar mensaje</h3>
+
+          <form id="form" class="contact__form-container">
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Nombre</label>
+              <input type="text" id="name" name="name" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">Correo</label>
+              <input type="email" id="email" name="email" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="subject" class="contact__form-label">Asunto</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Mensaje</label>
+              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+            <dialog class="contact__form-modal" id="modal">
+              Formulario enviado con éxito! Te contactaré lo mas pronto que pueda.
+              <button type="reset" id="btn_close-modal">Cerrar</button>
+            </dialog>
+
+            <button type="submit" class="btn contact__form-button">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Alejandro Cujar</h3>
+        <p class="footer__description">
+          Soy profesional en mercadeo y publicidad con énfasis en desarrollo web.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Redes Sociales</h3>
+
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.facebook.com/jose.cujar" target="_blank"
+              rel="Facebook JAcujar"><i class="bx bxl-facebook"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.instagram.com/soyjcujar/" target="_blank"
+              rel="Instagram JAcujar"><i class="bx bxl-instagram"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://x.com/soycujarsb" target="_blank" rel="X JAcujar"><i
+                class="bx bxl-twitter"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.linkedin.com/in/alejandrocujardesigner/" target="_blank"
+              rel="Linkedin JAcujar"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy">&#64;<span> </span>Todos los derechos reservados</p>
+  </footer>
+
+</body>
+
+</html>
